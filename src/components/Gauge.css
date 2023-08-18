@@ -1,0 +1,47 @@
+/* css gauge */
+
+.gauge {
+    width: 50px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .gauge:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, green, yellow, red);
+  }
+  
+  .label {
+    position: absolute;
+    left: 5px;
+  }
+  
+  .label-0 {
+    bottom: 0;
+  }
+  
+  .label-1000 {
+    bottom: calc(1000 / 3000 * 100%);
+  }
+  
+  .label-2000 {
+    bottom: calc(2000 / 3000 * 100%);
+  }
+  
+  .label-3000 {
+      bottom: calc(3000 / 3000 * 100%);
+      transform: translateY(100%);
+  }
+    
+  .marker {
+      position: absolute;
+      left: -5px;
+      width: calc(100% + 10px);
+      height: 2px;
+      background-color: black;
+        }
+  

@@ -1,0 +1,66 @@
+/* css compasse */
+.artificial-horizon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+  
+    }
+  
+  .artificial-horizon:before {
+    content: "";
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    background: linear-gradient(to bottom, skyblue, green);
+  }
+  
+  .label {
+    position: absolute;
+  }
+  
+  .label-0 {
+      top: 0px;
+      left: calc(50%);
+  }
+  
+  .label-90 {
+      bottom: 0px;
+      left: calc(50% - 5px);
+  }
+  
+  .label-180 {
+      top: calc(50% - 5px);
+      right: 0px;
+      left:150px;
+  }
+  
+  .label-270 {
+      top: calc(50% - 5px);
+      left: 0px;
+  }
+  
+  
+  .arrow {  
+    top: calc(50%);
+    left: calc(50%);
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+  }
+  
+  .arrow:after {
+    content: "";
+    display: block;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+    border-left:10px solid black; 
+    position: absolute;
+    right: -10px;
+    top: -3px;
+  }
