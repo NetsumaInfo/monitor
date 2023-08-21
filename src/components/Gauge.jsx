@@ -13,7 +13,7 @@ export default class Gauge extends React.Component {
     return (            
         
         <div class="gauge">
-            <div class="label label-0">0</div>
+            <div class="label label0">0</div>
             <div class="label label-1000">1000</div>
             <div class="label label-2000">2000</div>
             <div class="label label-3000">3000</div>

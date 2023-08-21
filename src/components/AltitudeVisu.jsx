@@ -1,6 +1,5 @@
 
 import React from 'react';
-import axios from 'axios';
 import Gauge from './Gauge';
 import Compass from './Compass';
 import Circle from './Circle';

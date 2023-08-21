@@ -20,8 +20,8 @@
     left: 5px;
   }
   
-  .label-0 {
-    bottom: 0;
+  .label0 {
+    bottom: 0%;
   }
   
   .label-1000 {
@@ -41,7 +41,7 @@
       position: absolute;
       left: -5px;
       width: calc(100% + 10px);
-      height: 2px;
+      height: 4px;
       background-color: black;
         }
   
