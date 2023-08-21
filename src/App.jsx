@@ -1,5 +1,5 @@
-import AltitudeGet from './components/AltitudeGet.js';
-import AltitudeVisu from './components/AltitudeVisu.js';
+import AltitudeGet from './components/AltitudeGet';
+import AltitudeVisu from './components/AltitudeVisu';
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect, useState } from "react";

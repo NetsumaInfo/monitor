@@ -1,9 +1,9 @@
 
 import React from 'react';
 import axios from 'axios';
-import Gauge from './Gauge.js';
-import Compass from './Compass.js';
-import Circle from './Circle.js';
+import Gauge from './Gauge';
+import Compass from './Compass';
+import Circle from './Circle';
 
 export default class AltitudeVisu extends React.Component {
  
